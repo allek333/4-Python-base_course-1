@@ -7,4 +7,4 @@
 def salary(WorkHour, PayHour, Benefit):
     answer = WorkHour * PayHour + Benefit
     return answer
-print(salary(10, 20, 3))
+print(salary(10, 30, 2))
