@@ -5,7 +5,7 @@
 заполнения списка элементов необходимо использовать
 функцию input().'''
 
-list = [i for i in input('input list of data: ').split()]
+list = [i for i in input('input list of data: ')]
 for i in range(1, len(list), 2):
     list[i - 1], list[i] = list[i], list[i-1]
 print(list)

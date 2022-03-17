@@ -17,7 +17,7 @@ while n < len(words):
     break
     Неправильный вариант. Цикл не работает'''
 
-variant 2
+# variant 2
 my_list = input('enter: ')
 words = my_list.split()
 print(words)
